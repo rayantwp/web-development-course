@@ -40,6 +40,9 @@ table {
   border-collapse: collapse !important;
   table-layout: fixed !important;
   margin: 0 auto !important;
+  border-width: 0; 
+  width: 100%;
+  text-align: center;
 }
 
 /* What it does: Uses a better rendering method when resizing images in IE. */
@@ -119,6 +122,8 @@ img.g-img+div {
 .bg-light {
   background: #ffffff;
   padding: 1em 2.5em 0 2.5em;
+  border-width: 0;
+  width: 100%;
 }
 
 .bg-light tr {
@@ -128,6 +133,7 @@ img.g-img+div {
 .bg-light td {
   text-align: left;
   padding: 1em 2.5em;
+  width: 20%;
 }
 
 .item-text {
